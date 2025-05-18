@@ -1,0 +1,36 @@
+[33mcommit c283e7db000aff2153d82a6fdcb9756c938a52fc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: muskanperween <muskanperween24@navgrukul.org>
+Date:   Sun May 18 11:53:28 2025 +0530
+
+    adding somthing in index.html
+
+[33mcommit 285ee19b63504e8d151c2664d86ceeeb33195c75[m
+Merge: 787cd48 497d727
+Author: muskanperween <muskanperween24@navgrukul.org>
+Date:   Sun May 18 11:52:05 2025 +0530
+
+    Resolved merge conflict in index.html
+
+[33mcommit 497d72756fce97b351c686d33dbb122cf7e7e99d[m
+Author: Puja -Kumari99 <pujamaurya24@navgurukul.org>
+Date:   Sun May 18 11:14:49 2025 -0400
+
+    adding something in index.htm
+
+[33mcommit 06dd9d1f35aa45f795d4c1bb004b504801fd2390[m
+Author: RuchiSaha <ruchikumari24@navgurukul.org>
+Date:   Sun May 18 10:56:32 2025 -0400
+
+    adding something
+
+[33mcommit fe3c02bd4d22857706a2c1b1e8acb97439380929[m
+Author: RuchiSaha <ruchikumari24@navgurukul.org>
+Date:   Sun May 18 10:20:34 2025 -0400
+
+    initialcommit
+
+[33mcommit 787cd48862dbc70fd8f0ac0016afc03a0a51c199[m
+Author: muskanperween <muskanperween24@navgrukul.org>
+Date:   Sun May 18 11:24:21 2025 +0530
+
+    Local changes
