@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<<<<<<< HEAD
+<<<<<<< HEAD
+</head>
+<body>
+    
+=======
+=======
+
+>>>>>>> c283e7db000aff2153d82a6fdcb9756c938a52fc
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+    <marquee>
+        <div class="Navbar">
+            <ul>
+                <a href="index.html">
+                    <li >Starrack</li></a>
+        
+            
+                <a href="event.html">
+                <li >Starrack</li></a>
+    
+                <a href="acheivment.html">
+                <li >Computer </li></a>
+    
+                <a href="login.html">
+                <li>Power Sunglasses</li></a>
+    
+                <h5>this is muskan</h5>
+                
+            </ul>
+        </div>
+    
+    </marquee>
+
+
+    <script src="script.js"></script>
+<<<<<<< HEAD
+>>>>>>> 497d72756fce97b351c686d33dbb122cf7e7e99d
+=======
+
+>>>>>>> c283e7db000aff2153d82a6fdcb9756c938a52fc
+</body>
+</html>
