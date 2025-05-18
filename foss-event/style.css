@@ -1,0 +1,229 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Navbar Styling */
+.Navbar {
+    background-color: #1a1a2e;
+    padding: 15px 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.Navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.Navbar ul a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.Navbar ul a:hover {
+    color: #00adb5;
+}
+
+/* Hero Section */
+.events-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero-header h1 {
+    font-size: 48px;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+}
+
+.hero-header p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+}
+
+.hero-image img {
+    max-width: 400px;
+}
+
+/* Button Styling */
+.primary-button {
+    background-color: #00adb5;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #007b83;
+}
+
+/* Community Events Section */
+.community-events-section {
+    padding: 50px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.programs-section-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.programs-section-header p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.program-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.program-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+
+.program-card-body h3 {
+    font-size: 20px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+/* Event Cards */
+.events-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.03);
+}
+
+.event-card--title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #003f5c;
+}
+
+.event-card--date {
+    color: #009688;
+    font-weight: 500;
+}
+
+.event-card--location {
+    font-size: 14px;
+    color: #666;
+}
+
+.chapter-brand-block span {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #e3f2fd;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content h5 {
+    font-size: 24px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.cta-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.cta-image img {
+    max-width: 250px;
+}
+
+/* Footer Placeholder */
+.page-footer {
+    padding: 40px;
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .events-hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .cta-image img {
+        max-width: 200px;
+    }
+}
